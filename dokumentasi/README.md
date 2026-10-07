@@ -1,12 +1,25 @@
-# Dokumentasi SIMPEG-SMART
+# Dokumentasi Otomatis
 
-Folder ini dikelola otomatis oleh GitHub Actions.
+Dibuat dari source code repository pada commit saat workflow berjalan.
 
-Alur:
-1. Commit masuk ke branch main.
-2. Python membaca source code secara statis.
-3. Route, controller, model, migration, middleware, service, dan Blade dihitung.
-4. Markdown dan diagram Mermaid diperbarui.
-5. Hasilnya dikomit kembali ke repository.
+| Komponen | Jumlah |
+|---|---:|
+| File PHP | 0 |
+| Blade | 0 |
+| Route file | 0 |
+| Controller | 0 |
+| Model | 0 |
+| Migration | 0 |
+| Middleware/Penengah | 0 |
+| Service/Layanan | 0 |
+| Route terdeteksi | 0 |
+| Tabel terdeteksi | 0 |
 
-Tujuannya adalah membuat dokumentasi teknis mengikuti kode terbaru.
+## Diagram
+- diagram/arsitektur.md
+- diagram/workflow.md
+- diagram/use-case.md
+- diagram/erd.md
+- ROLE-DAN-AKSES.md
+
+Analisis bersifat statis dan tidak menganggap fitur yang tidak ditemukan sebagai fitur sistem.
